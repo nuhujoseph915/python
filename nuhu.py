@@ -1,4 +1,6 @@
-L = int(input("inter L"))
-w = int(input("inter W"))
-A = L*w
-print(A)
+import streamlit as st
+
+L = st.number_input("Enter L")
+W = st.number_input("Enter W")
+A = L*W
+st.write(A)
