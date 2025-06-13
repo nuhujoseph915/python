@@ -1,1 +1,1 @@
-Streamlit Ver. 1.45.0
+streamlit
